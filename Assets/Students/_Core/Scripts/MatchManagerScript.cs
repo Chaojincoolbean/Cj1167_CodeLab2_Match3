@@ -21,6 +21,7 @@ public class MatchManagerScript : MonoBehaviour {
 		for(int x = 0; x < gameManager.gridWidth; x++){
             //cycle through horizontal elements in column
 			for(int y = 0; y < gameManager.gridHeight ; y++){
+
                 //don't need to evaluate last two rows, because 
                 //GridHasHorizontalMatch method is checking last two
 				if(x < gameManager.gridWidth - 2){
